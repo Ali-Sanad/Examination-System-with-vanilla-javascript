@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examination System</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Exam.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        
+            <div class="h1">
+            <h1>Questions</h1>
+            </div>
+          <div id="countdown" style="width: 90px;height: 30px;border-radius: 50%;background-color: black;
+          font-size: 20px;text-align: center;color: wheat;">
+            <h1></h1>
+          </div>
+          <div class="headQuestion">
+           <span>Q:</span>
+        </div>
+        <div class="answers">
+           
+          <div>
+            <input type="radio" id="inpt" name="answer" value="A"/> 
+            <span id="anwser1"></span>
+          </div>
+          <div>
+            <input type="radio" id="inpt" name="answer" value="B" />
+            <span id="anwser2"></span>
+          </div>
+          <div>
+            <input type="radio" id="inpt" name="answer" value="C" />
+            <span id="anwser3"></span>
+          </div>
+          <div>
+            <input type="radio" id="inpt" name="answer" value="D"/>
+            <span id="anwser4"></span>
+          </div>
+        </div>
+        <div>
+          <button id="Prev">Prev</button>
+          <button id="next">Next >></button>
+          <button id="mark">mark</button>
+        </div>
+        <div class="submit">
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+      <div class="right" id="mark">
+        <p style="color: aliceblue;text-align: center;font-size: 40px;">mark</p>
+      </div>
+    </div>
+
+      <div class="onsubmit" style="color: aliceblue;"> 
+       <p style="font-size: 30px;"> You score is <span class="lastresult1" style="font-size: 30px;"></span> from 10 </p>
+       <img src="1.jpg" alt="" style="display: block;">
+     </div>
+
+     <div class="ontimeout" style="color: aliceblue;"> 
+    <p style="font-size: 30px;">  You score is <span class="lastresult2" style="font-size: 30px;"></span> from 10 </p>
+      <img src="2.png" alt="" style="display: block;">
+
+   </div> 
+   <div class="onnext" style="color: aliceblue; display: none;"> 
+    <p style="font-size: 30px;">  You score is <span class="lastresult3" style="font-size: 30px;"></span> from 10 </p>
+    <img src="1.jpg" alt="" style="display: block;">
+
+   </div> 
+
+    <script src="Exam.js"></script>
+  </body>
+</html>

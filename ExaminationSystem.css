@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: wheat;
+}
+body{
+    background-image: url('cover.jpg');
+    
+}
+#myform{
+    width: 300px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: black;
+    text-align: center;
+    border: 1.5px solid rgb(197, 192, 228);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    color: wheat;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid red;
+    margin-bottom: 10px;
+}
+input:hover{
+    border-bottom: 2px solid green;
+}
+::placeholder{
+    color: wheat;
+}
+h1{
+    color: white;
+    font-style: italic;
+}
+
+#submit{
+    height: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: wheat;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: rgb(28, 196, 28);
+}
+p{
+    font-size: 13px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: none;
+}

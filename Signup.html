@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Examination System</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="ExaminationSystem.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="login.html" id="myform">
+        <h1>Sign Up!</h1>
+        <p id="p10" style="background-color: white;; width: 150px;height: 30px;margin:0px auto; color: black;font-size: 15px;">Please Fill All Inputs</p>
+
+        <div>
+          <input type="text" id="inpt1" placeholder="FirstName" /><br>
+          <p id="p1">Characters Only!</p>
+        </div>
+        <div>
+          <input type="text" id="inpt2" placeholder="LastName" /><br>
+          <p id="p2">Characters Only!</p>
+        </div>
+
+        <div>
+          <input type="text" id="inpt3" placeholder="Email" /><br>
+          <p id="p3">Ex:mosalah.gmail.com</p>
+        </div>
+        <div>
+          <input type="password" id="inpt4" placeholder=" Password " /><br>
+          <p id="p4">Characters & Numbers only</p>
+        </div>
+        <div>
+          <input type="password" id="inpt5" placeholder="re-enter Password" /><br>
+          <p id="p5">Not matched!</p>
+        </div>
+        <div><input type="submit" id="submit" /></div>
+
+      </form>
+    </div>
+    <script src="ExaminationSystem.js"></script>
+  </body>
+</html>

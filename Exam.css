@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: darkslateblue;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color:gray;
+    margin: 100px auto;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    display: flex;
+}
+.left{
+    width: 80%;
+    height: 100%;
+    background-color: skyblue;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius: 30px;
+}
+.h1{
+    background-color: rgb(178, 199, 61);
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.headQuestion{
+    background-color: gold;
+    font-weight: bold;
+    height: 40px;
+    font-size: 20px;
+    color:black;
+    border-radius: 15px;
+}
+#countdown{
+    font-size: 30px;
+    color: red;
+    margin-left: 80%;
+    font-weight: bolder;
+
+}
+
+.right{
+    width: 20%;
+    height: 100%;
+    background-color:black;
+    display: inline-block;
+    border-radius: 30px;
+}
+input{
+    
+    background-color: #fff;
+    padding-right: 20px;
+
+}
+.answers div{
+    margin: 20px 0;
+}
+button{
+    width: 100px;
+    height: 20px;
+    background-color:blue;
+}
+#submit{
+    width: 100%;
+    height: 50px;
+    background-color:red;
+    border-radius: 20px;
+    text-shadow:2px 2px 4px black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+span{
+    font-weight: bold;
+    font-size: 23px;
+    font-style: italic;
+}
+
+.onsubmit, .ontimeout{
+    display: none;
+}
